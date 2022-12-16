@@ -1,0 +1,17 @@
+.container{
+    display: inline-block
+}
+.division{
+    display: flex;
+    margin: 0;;
+    padding: 10px;
+    border-style:dotted;
+    width: 20px;
+    height:20px;
+    border-color: rgb(1, 2, 2);
+    border-width: 10px;
+    background-color: rgb(249, 249, 253);
+}
+.divison:hover{
+    background-color: yellowgreen;
+}
