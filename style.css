@@ -9,16 +9,16 @@ body{
    display: flex;
   flex-wrap: wrap;
   outline-style:solid;
-  width:578px;
-  height: 578px;
+  width: 720px;
+  height: 720px;
   margin:  0;
   padding:  0;
 }
 .grid{
      display: flex;
     outline-style: solid;
-    width: 36px;
-    height: 36px;
+    width: 45px;
+    height: 45px; 
     margin: 0;
     padding: 0;
     gap: 0;
@@ -29,4 +29,15 @@ body{
     justify-content: center;
     align-items: center;
     
+}
+
+.smallGrid{
+    display: flex;
+    outline-style: solid;
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+    background-color: white;
 }
