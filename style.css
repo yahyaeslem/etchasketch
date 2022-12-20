@@ -69,11 +69,7 @@ border-style: none;
   }
   
 
-  button:hover{
-    border-radius: 25px;
-    background-color: aquamarine;
-    
-  }
+
   .resetBtn{
     padding-left: 270px;
     border-style: outset;
@@ -105,3 +101,4 @@ border-style: none;
     padding-bottom: 0px;
    
   } 
+ 
