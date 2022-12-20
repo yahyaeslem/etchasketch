@@ -15,7 +15,7 @@ const biggerBtn = document.querySelector('.biggerBtn');
 // CREATE SQUARES FUNCTION
 function createGrid(size){
   let colorGreys = "CECACA"
-  const gridSize= (720/size);
+  const gridSize= (540/size);
     for(let i = 0; i < (size*size); i++ ){
           const grid= document.createElement('div');
           container.appendChild(grid);

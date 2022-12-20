@@ -15,9 +15,9 @@ body{
   flex-wrap: wrap;
   outline-style:solid;
   border-radius: 10px;
-  width: 720px;
-  height: 720px;
-  margin-top: 40px ;
+  width: 540px;
+  height: 540px;
+  margin-top: 20px ;
   padding:0;
   outline-color: rgb(104, 101, 101);
   
@@ -36,14 +36,14 @@ body{
     outline-color: rgb(66, 65, 65);
 }
 .header{
-    position:fixed;
-    top:4px;
-    margin: 30px 0 20px 0;
+position:absolute;
+    top:1px;
+    margin: 25px;
     justify-content: center;
    
-padding: 22px;
-color:rgb(34, 27, 18);
-  font-size: 65px; 
+  padding: 22px;
+  color:rgb(34, 27, 18);
+  font-size: 54px; 
   font-family:'Advent Pro';
   line-height: 90px;
   text-shadow: 2px 2px 6px rgb(212, 210, 210);
@@ -55,7 +55,7 @@ button{
 
 border-radius: 13px;
 font-family:'Advent Pro';
-font-size: 33px;
+font-size: 18px;
 font-weight: bold;
 color:rgb(46, 37, 25);
 background-color: #d1d4d8;
@@ -84,17 +84,18 @@ border-style: none;
     background-color: rgb(245, 144, 144);
   }
   footer{
-    position: fixed;
-    border-radius: 9px;
+    position:static;
     
-    border-width: 3px;
     bottom: 5px;
     width: 95%;
-   
+   margin-top: 30px;
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+   padding-top: 20px;
     text-align: center;
     align-items: center;
-    padding: 20px;
-    font-size: 28px;
+    
+    font-size: 20px;
     font-weight:500;
     color: rgba(46, 37, 25, 0.986);
     font-family:'Advent Pro';
@@ -106,6 +107,4 @@ border-style: none;
     padding-bottom: 0px;
    
   } 
- .mainbody{
-  padding-bottom: 255px;
- }
+ 
