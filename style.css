@@ -14,7 +14,7 @@ body{
    display: flex;
   flex-wrap: wrap;
   outline-style:solid;
-  
+  border-radius: 10px;
   width: 720px;
   height: 720px;
   margin-top: 40px ;
