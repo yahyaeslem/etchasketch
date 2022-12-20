@@ -2,7 +2,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background:radial-gradient(#8b8b8d, #bebcbc);
+    background:radial-gradient(#b9b9e7, #856e6e);
     margin: 10px;
     padding: 20px;
     align-items: center;
@@ -71,6 +71,7 @@ border-style: none;
   .sizeButtons{
     display: flex;
     margin: 12px;
+    padding: 7px;
     
   }
   
@@ -85,7 +86,7 @@ border-style: none;
   }
   footer{
      position:fixed;
-    
+  
     bottom: 5px;
     width: 95%;
    margin-top: 30px;
@@ -106,6 +107,7 @@ border-style: none;
     padding-left: 15px;
     padding-top: 0px;
     padding-bottom: 0px;
+    background-color: #a8a8aa;
    
   } 
  

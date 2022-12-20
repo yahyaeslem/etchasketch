@@ -80,15 +80,15 @@ createGrid(16);
       smallBtn.style.backgroundColor ="#d1d4d8"
     if(clickSizeButton === "smallBtn"){
       
-      smallBtn.style.backgroundColor = "aquamarine"
+      smallBtn.style.backgroundColor = "rgb(202 228 117 / 63%)"
     }
     else if(clickSizeButton === "mediumBtn"){
    
-      mediumBtn.style.backgroundColor = "aquamarine"
+      mediumBtn.style.backgroundColor = "rgb(202 228 117 / 63%)"
     }
     else if(clickSizeButton === "biggerBtn"){
      
-      biggerBtn.style.backgroundColor = "aquamarine"
+      biggerBtn.style.backgroundColor = "rgb(202 228 117 / 63%)"
     }
    }
   // changing color buttons colors when clicked
@@ -101,19 +101,19 @@ createGrid(16);
     rainbow.style.backgroundColor ="#d1d4d8"
     if(condition === "btnBlack"){
       
-      btnBlack.style.backgroundColor = "aquamarine"
+      btnBlack.style.backgroundColor = "rgb(202 228 117 / 63%)"
     }
     else if(condition === "btnErase"){
    
-      btnErase.style.backgroundColor = "aquamarine"
+      btnErase.style.backgroundColor = "rgb(202 228 117 / 63%)"
     }
     else if(condition === "btnYellow"){
      
-      btnYellow.style.backgroundColor = "aquamarine"
+      btnYellow.style.backgroundColor = "rgb(202 228 117 / 63%)"
     }
     else if(condition === "rainbow"){
      
-      rainbow.style.backgroundColor = "aquamarine"
+      rainbow.style.backgroundColor = "rgb(202 228 117 / 63%)"
     }
    }
    
